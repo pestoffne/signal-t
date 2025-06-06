@@ -29,21 +29,30 @@ On Windows administrator access is required to listen tcp port.
 
 Steps for first run.
 
-1) Download project from git.
+1. Download project from git.
 
-2) Open terminal in the project dir.
+2. Open terminal in the project dir.
 
-3) Create virtual environment.
+3. Create virtual environment.
 ```
 python -m venv venv
 ```
 
-4) Activate virtual environment.
+4. Activate virtual environment.
+In GNU/Linux shell use:
 ```
 . venv/bin/activate
 ```
+In Windows CMD.exe:
+```
+venv\Scripts\activate.bat
+```
+In Windows Power Shell use:
+```
+.\venv\Scripts\Activate.ps1
+```
 
-5) Update pip and setuptools.
+5. Update pip and setuptools.
 ```
 python -m pip install -U pip setuptools
 ```
