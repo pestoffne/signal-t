@@ -39,16 +39,14 @@ python -m venv venv
 ```
 
 4. Activate virtual environment.
-In GNU/Linux shell use:
-```
+```bash
+# In GNU/Linux shell use:
 . venv/bin/activate
-```
-In Windows CMD.exe:
-```
+
+# In Windows CMD.exe:
 venv\Scripts\activate.bat
-```
-In Windows Power Shell use:
-```
+
+# In Windows Power Shell use:
 .\venv\Scripts\Activate.ps1
 ```
 
