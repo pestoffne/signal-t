@@ -11,8 +11,7 @@ Windows-only application.
 Supports x86 and x86_64.
 
 Pre-requirements:
-* Python 3.7 or later,
-* .NET VERSION or Mono.
+* Python 3.7 or later.
 
 Administrator access is required to use tcp port.
 
@@ -34,7 +33,7 @@ Steps for first run.
 2. Open terminal in the project dir.
 
 3. Create virtual environment.
-```
+```bash
 python -m venv venv
 ```
 
@@ -51,33 +50,40 @@ venv\Scripts\activate.bat
 ```
 
 5. Update pip and setuptools.
-```
+```bash
 python -m pip install -U pip setuptools
 ```
 
 6. Install required python libraries.
-```
+```bash
 pip install -r requirements.txt
 ```
 
 7. Run server.
-```
+```bash
 python server.py
 ```
 
 8. Open second terminal, activate environment and run client.
-```
+```bash
 python client.py
 ```
 
 # Second run
 
-1. In the porject dir activate the environment.
-```
+1. In the project dir activate the environment.
+```bash
+# In GNU/Linux shell use:
 . venv/bin/activate
+
+# In Windows CMD.exe:
+venv\Scripts\activate.bat
+
+# In Windows Power Shell use:
+.\venv\Scripts\Activate.ps1
 ```
 
 2. Run client or server.
-```
+```bash
 python client.py
 ```
